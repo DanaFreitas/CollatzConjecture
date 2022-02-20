@@ -1,0 +1,48 @@
+html {background-image: url("img/background.jpg"); background-repeat: no-repeat; background-size: auto;}
+
+#info  {color:white; display:flex; align-items: center; justify-content: center; padding:40px;}
+
+title {color:white; display:flex; align-items: center; justify-content: center; font-size: 16px;}
+@media only screen and (min-width: 768px){
+
+    title{ font-size: 36px;}
+
+ }
+
+#submit {color:white; background-color:#2f4f4f; margin:20px;}
+
+#canvas {width:10%;}
+
+.intro {color:white; height:100%; display: flex; align-items:center; justify-content:center; margin-top: 10px; }
+ 
+#integer/*, #introwrap*/{color:#afccfa; display:flex; align-items:center; justify-content:center; height:100%;}
+
+
+
+
+
+
+/* #instructionbox {display:flex; flex-direction:row; align-items: center; justify-content: center; padding:20px;} */
+/*#instructionbox {/*display:grid; grid-template-columns: 33% 33% 33%;*//* display:flex; color:white; align-items:center; 
+   justify-content:center;margin: auto;} */
+
+
+#Question {color:white; background-color:#2f4f4f; margin:20px;
+     width:100%}
+
+     @media only screen and (min-width: 768px){
+
+        #Question{ width:20%;}
+
+     }
+
+    #Explanation {display:none; color:white; width:100%; padding:10px;}
+
+/*Flexbox needs to be the only element with flex.*/
+#scroll {color:white; display:flex; align-items: center; justify-content: center; background-color:#2f4f4f; }
+
+
+.box {display:flex; align-items: center; justify-content: center;}
+
+.questionbox {display:flex;  flex-direction: column;  align-items: center; justify-content: center; padding:40px;}
+

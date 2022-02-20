@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="conjecture.css">
+</head>
+
+<body>
+
+    <title>Learn about the Collatz Conjecture</title>
+
+        <div class="intro">Try inputting a positive integer (a whole number greater than 0), and see what happens. </div>
+
+ 
+
+
+
+
+
+
+    <div class="box">
+        <form>
+            <input type="text" id="input">
+            <button type="button" onclick="calculation()" id="submit">Submit</button>
+
+        </form>
+    </div>
+
+    <div id="info"></div>
+
+    <canvas id="chart"></canvas>
+
+    <div class="questionbox">
+        <button id="Question" onclick="question()">What is the Collatz Conjecture and how does it work?</button>
+
+        <div id="Explanation">The collatz conjecture is an unsolved mathemetical problem, hence it being a conjecture
+            and not a theorum. It was named after Lothar Collatz, who personally worked on it. He is claimed to be the
+            creator, although he denies being the first to work on it.(study.com)
+
+            A whole, positive integer, X, is given. If it is odd, apply 3x + 1 and if it is even, apply x/2. This
+            process is meant to be applied continuously. However, given time, the initial number so far always
+            repeats in a cycles of 1, 2, 4, and back to 1[study]. The inssue of the conjecture is whether or not this
+            applies to all numbers, or just the ones that have been applied so far. Perhaps you will
+            be able to find an exception!
+
+            source:https://study.com/academy/lesson/history-of-the-collatz-conjecture.html</div>
+
+        <button id="scroll" onclick="scrollup()">Click to scroll up.</button>
+    </div>
+
+
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+
+<script src="conjecture.js"></script>
+
+</html>
